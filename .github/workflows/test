@@ -1,0 +1,11 @@
+name: Test
+
+on: push
+
+jobs:
+  list-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: List files
+        run: ls -ah
